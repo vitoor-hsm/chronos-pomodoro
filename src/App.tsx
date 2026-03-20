@@ -10,6 +10,7 @@ import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
 
+
 export function App() {
     return (
         <>
@@ -28,7 +29,7 @@ export function App() {
             <Container>
                 <form className='form' action="">
                     <div className='formRow'>
-                        <DefaultInput labelText='' id='meuInput' type='text' placeholder='Digite algo'/>
+                        <DefaultInput labelText="task" id='meuInput' type='text' placeholder='Digite algo'/>
                     </div>
 
                     <div className='formRow'>
